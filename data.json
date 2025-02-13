@@ -1,0 +1,144 @@
+{
+  "intents": [
+    {
+      "tag": "enrollment_inquiry",
+      "patterns": [
+        "How do I enroll?", "What is the enrollment process?", "How can I register for classes?", 
+        "Where do I sign up for courses?", "How do I start my enrollment?", "What are the steps for enrollment?", 
+        "Can you guide me through the enrollment process?", "How do I apply for a course?", "How do I enroll in a program?", 
+        "How do I begin the registration process?"
+      ],
+      "responses": [
+        "You can enroll through our online portal or visit our admissions office for assistance.", 
+        "To enroll, complete the online application and submit the necessary documents.", 
+        "Follow the step-by-step guide on our website for a smooth enrollment process."
+      ]
+    },
+    {
+      "tag": "enrollment_deadlines",
+      "patterns": [
+        "When is the enrollment deadline?", "What is the last date to enroll?", "How long do I have to enroll?", 
+        "Is it too late to enroll?", "What is the final registration date?", "When does enrollment close?", 
+        "Can I enroll after the deadline?", "What happens if I miss the enrollment deadline?", "Are there late enrollment options?", 
+        "Do you offer extensions for enrollment?"
+      ],
+      "responses": [
+        "Enrollment deadlines vary by program. Please check our website for specific dates.", 
+        "If you miss the deadline, you may be eligible for late enrollment with a fee.", 
+        "Contact our admissions office for details about enrollment extensions."
+      ]
+    },
+    {
+      "tag": "enrollment_requirements",
+      "patterns": [
+        "What documents do I need to enroll?", "What are the requirements for enrollment?", "Do I need transcripts to enroll?", 
+        "Do I need an ID for enrollment?", "What qualifications are needed to enroll?", "What paperwork is required for registration?", 
+        "Are there any prerequisites for enrollment?", "Do I need recommendation letters to enroll?", "Do I need to take an entrance exam?", 
+        "What are the academic requirements for enrollment?"
+      ],
+      "responses": [
+        "Enrollment requirements depend on the program. Generally, you need identification, transcripts, and proof of qualifications.", 
+        "Some courses require entrance exams or specific prerequisites. Check our website for details.", 
+        "You can find the full list of required documents on our admissions page."
+      ]
+    },
+    {
+      "tag": "enrollment_fees",
+      "patterns": [
+        "How much is the enrollment fee?", "What are the tuition fees?", "Is there an application fee?", 
+        "How much does it cost to enroll?", "Are there additional fees for enrollment?", "Do I have to pay a deposit for enrollment?", 
+        "Are there any hidden costs for registration?", "Can I get a breakdown of enrollment fees?", "Do you offer discounts on enrollment fees?", 
+        "Are there different fees for international students?"
+      ],
+      "responses": [
+        "Enrollment fees vary by program. Please visit our website for specific details.", 
+        "There may be additional costs such as application or administrative fees. Check the admissions section for a breakdown.", 
+        "Financial aid and discounts may be available. Contact our finance office for more information."
+      ]
+    },
+    {
+      "tag": "enrollment_scholarships",
+      "patterns": [
+        "Are there scholarships for enrollment?", "Do you offer financial aid?", "Can I get a grant for enrollment?", 
+        "Are there payment plans for tuition?", "How can I apply for a scholarship?", "What financial support is available for students?", 
+        "Do you offer installment plans for enrollment fees?", "Is there a tuition assistance program?", "Can I get a waiver for the application fee?", 
+        "Are there special scholarships for international students?"
+      ],
+      "responses": [
+        "Yes, we offer scholarships and financial aid options. Check our website for eligibility and application details.", 
+        "You can apply for grants and tuition assistance through our financial aid office.", 
+        "We offer installment plans for tuition payments. Contact our finance office for more details."
+      ]
+    },
+    {
+      "tag": "enrollment_status",
+      "patterns": [
+        "How can I check my enrollment status?", "Is my application approved?", "When will I know if I’m enrolled?", 
+        "How do I track my registration?", "Has my enrollment been processed?", "Where can I find my enrollment confirmation?", 
+        "What should I do if my enrollment is still pending?", "I haven’t received my enrollment confirmation, what should I do?", 
+        "Can I check my enrollment status online?", "How long does it take for enrollment to be processed?"
+      ],
+      "responses": [
+        "You can check your enrollment status through your student portal.", 
+        "If your enrollment is still pending, contact the admissions office for an update.", 
+        "Enrollment processing times vary, but you should receive confirmation within a few business days."
+      ]
+    },
+    {
+      "tag": "enrollment_changes",
+      "patterns": [
+        "Can I change my enrolled courses?", "How do I update my enrollment details?", "Can I switch programs after enrolling?", 
+        "What if I enrolled in the wrong course?", "Can I drop a class after enrolling?", "Is it possible to modify my enrollment?", 
+        "How do I add a class to my enrollment?", "What happens if I need to change my major?", "Can I transfer my enrollment to another semester?", 
+        "How do I correct an error in my enrollment?"
+      ],
+      "responses": [
+        "You can make changes to your enrollment through your student portal or by contacting admissions.", 
+        "Switching programs may require approval. Contact your academic advisor for guidance.", 
+        "Adding or dropping courses is allowed within the registration period. Check deadlines on our website."
+      ]
+    },
+    {
+      "tag": "enrollment_cancellation",
+      "patterns": [
+        "How do I cancel my enrollment?", "Can I withdraw from the program after enrolling?", "What if I need to drop out?", 
+        "Is there a refund if I cancel my enrollment?", "How do I defer my enrollment?", "What happens if I withdraw from a course?", 
+        "Can I take a leave of absence after enrolling?", "Will canceling enrollment affect my scholarship?", "Can I reapply after canceling my enrollment?", 
+        "Are there penalties for canceling my enrollment?"
+      ],
+      "responses": [
+        "You can cancel your enrollment by submitting a request through the admissions office.", 
+        "Refund policies vary based on the time of cancellation. Check our website for details.", 
+        "If you defer your enrollment, you may be able to reapply later without penalties."
+      ]
+    },
+    {
+      "tag": "late_enrollment",
+      "patterns": [
+        "Can I enroll after the deadline?", "Is late enrollment possible?", "What if I missed the enrollment deadline?", 
+        "How do I apply for late enrollment?", "Are there penalties for enrolling late?", "Can I still register if I missed the deadline?", 
+        "What options do I have if I missed the enrollment period?", "Are there special cases for late enrollment?", 
+        "Do I need approval for late enrollment?", "Can I enroll in the next semester instead?"
+      ],
+      "responses": [
+        "Late enrollment is allowed in some cases with approval. Contact the admissions office for details.", 
+        "There may be a late registration fee. Check our website for specific policies.", 
+        "If you missed the deadline, you might need to wait for the next enrollment period."
+      ]
+    },
+    {
+      "tag": "enrollment_contact",
+      "patterns": [
+        "Who can I talk to about enrollment?", "Where can I get help with enrollment?", "What’s the admissions office contact?", 
+        "How do I reach student services?", "Is there an enrollment hotline?", "Where is the enrollment office located?", 
+        "Can I speak to an advisor about enrollment?", "What’s the email for admissions?", "How do I book an appointment with an enrollment counselor?", 
+        "Where can I get official enrollment information?"
+      ],
+      "responses": [
+        "You can contact the admissions office via phone, email, or visit in person for enrollment assistance.", 
+        "Check our website for the official contact details of our enrollment team.", 
+        "Student advisors are available for appointments to guide you through the enrollment process."
+      ]
+    }
+  ]
+}
