@@ -1,6 +1,37 @@
 {
   "intents": [
     {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", "Hello", "Hey", "Good morning", "Good evening", "Howdy", "What's up?", 
+        "Greetings", "How are you?", "Hey there", "Yo", "Hi bot", "Hello chatbot", 
+        "Is anyone there?"
+      ],
+      "responses": [
+        "Hello! How can I assist you with your enrollment?", "Hi there! How may I help you with registration?",
+        "Greetings! How can I support your enrollment process?", "Hey! Are you looking for enrollment assistance?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", "See you later", "Goodbye", "Take care", "Catch you later", "Farewell", 
+        "Talk to you soon", "See ya", "I'm leaving now", "I have to go"
+      ],
+      "responses": [
+        "Goodbye! Hope you complete your enrollment successfully.", "See you later! Let me know if you need more help.", 
+        "Take care! Reach out if you have any other enrollment questions."
+      ]
+    }, {
+      "tag": "yes",
+      "patterns": [
+        "of course", "yes", "i do", "help"
+      ],
+      "responses": [
+        "Tell me your problem"
+      ]
+    },
+    {
       "tag": "enrollment_inquiry",
       "patterns": [
         "How do I enroll?", "What is the enrollment process?", "How can I register for classes?", 

@@ -1,4 +1,7 @@
 flask
 transformers
-pip install 
 torch
+numpy
+json
+tensorflow 
+pickle
